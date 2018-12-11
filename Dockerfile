@@ -1,4 +1,4 @@
-FROM homeassistant/home-assistant:0.82.0
+FROM homeassistant/home-assistant
 
 RUN apt-get update && apt-get install -y git
 
